@@ -1,0 +1,569 @@
+@media screen and (max-width: 1440px) and (min-width: 769px) {
+    body{
+        background: #1b2473;
+    }
+
+    .alarm_email{
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 60px;
+        color: red;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 16px;
+        z-index: 9;
+    }
+
+    .alarm_password{
+        position: absolute;
+        margin-top: 242px;
+        margin-left: 60px;
+        color: red;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 16px;
+        z-index: 9;
+    }
+
+    .alarm_checkbox{
+        position: absolute;
+        margin-top: 286px;
+        margin-left: 60px;
+        color: red;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 16px;
+        z-index: 9;
+    }
+    
+    
+
+    .registration{
+        margin-right: 150px;
+        position: absolute;
+        width: 600px;
+        height: 412px;
+        left: 412px;
+        top: 82px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        color: #787878;
+        z-index: 7;
+    }
+
+    .registration__headliner{
+        position: absolute;
+        width: 115px;
+        height: 50px;
+        left: 160px;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 50px;
+        color: #787878;
+    }
+
+
+    .registration__email{
+        position: absolute;
+        width: 509px;
+        height: 49px;
+        left: 45px;
+        top: 112px;
+        
+    }
+
+    .registration__email-lable{
+        position: absolute;
+        width: 40px;
+        height: 16px;
+        left: 8px;
+        top: -19px;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 16px;
+
+    }
+    .registration__email-input{
+        position: absolute;
+        width: 509px;
+        height: 49px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+        border: 2px solid #787878;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 36px;
+        outline: none;
+    }
+
+    .registration__email-asterix {
+        height: 12px;
+        width: 7px;
+        left: 34px;
+        top: 110px;
+        border-radius: nullpx;
+        font-family: Roboto;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #787878;
+        position: absolute;
+        font-style: normal;
+        font-weight: 700 bold;
+    }
+
+    .registration__password-asterix {
+        height: 12px;
+        width: 7px;
+        left: 34px;
+        top: 190px;
+        border-radius: nullpx;
+        font-family: Roboto;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #787878;
+        position: absolute;
+        font-style: normal;
+        font-weight: 700 bold;
+    }
+
+    .registration__checkbox-asterix  {
+        height: 12px;
+        width: 7px;
+        left: 34px;
+        padding-top: 250px;
+        border-radius: nullpx;
+        font-family: Roboto;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #787878;
+        position: absolute;
+        font-style: normal;
+        font-weight: 700 bold;
+    }
+    .registration__email_hiden_alarm{
+        position: absolute;
+        width: 165px;
+        height: 16px;
+        left: 50px;
+        top: 160px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .registration__password_hiden_alarm{
+        position: absolute;
+        width: 165px;
+        height: 16px;
+        left: 50px;
+        top: 243px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .registration__button_hiden_alarm{
+        position: absolute;
+        width: 165px;
+        height: 16px;
+        left: 15px;
+        top: 35px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .registration__password{
+        position: absolute;
+        width: 509px;
+        height: 49px;
+        left: 45px;
+        top: 193px;
+    }
+    .registration__password-lable{
+        position: absolute;
+        width: 56px;
+        height: 16px;
+        left: 8px;
+        top: -19px;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 16px;
+        color: #787878;
+
+    }
+
+    .registration__password-input{
+        position: absolute;
+        width: 509px;
+        height: 49px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+        border: 2px solid #787878;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .registration__email-input::placeholder {
+        padding-left: 10px;
+        color: #ccc;
+    }
+    
+    .registration__password-input::placeholder {
+        padding-left: 10px;
+        color: #ccc;
+    }
+    
+    .registration__checkbox{
+        position: absolute;
+        width: 312px;
+        height: 24px;
+        left: 45px;
+        top: 258px;
+    }
+
+    .registration__checkbox_input{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+        border: 2px solid #787878;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .registration__checkbox_label{
+        position: absolute;
+        width: 278px;
+        height: 16px;
+        left: 34px;
+        top: 4px;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #787878;
+    }
+
+    .registration__checkbox_label-link{
+        position: absolute;
+        width: 278px;
+        height: 16px;
+        left: 88px;
+        top: 0px;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #787878;
+        text-decoration: underline;
+    }
+
+    .registration__button{
+        position: absolute;
+        width: 180px;
+        height: 52px;
+        left: 218px;
+        top: 334px;
+        background: #1A226B;
+        border-radius: 10px;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+}
+    .redBorder {
+        position: absolute;
+        width: 509px;
+        height: 49px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+        border: 2px solid red;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 36px;
+        outline: none;
+    }
+
+    .red_checkbox{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+        border: 2px solid red;
+        box-sizing: border-box;
+        border-radius: 10px;
+        outline: none;
+    }
+    .email_red-asterix {
+        height: 12px;
+        width: 7px;
+        left: 34px;
+        top: 110px;
+        border-radius: nullpx;
+        font-family: Roboto;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: red;
+        position: absolute;
+        font-style: normal;
+        font-weight: 700 bold;
+    }
+    .password_red-asterix {
+        height: 12px;
+        width: 7px;
+        left: 34px;
+        top: 190px;
+        border-radius: nullpx;
+        font-family: Roboto;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: red;
+        position: absolute;
+        font-style: normal;
+        font-weight: 700 bold;
+    }
+
+    .checkbox_red-asterix  {
+        height: 12px;
+        width: 7px;
+        left: 34px;
+        padding-top: 250px;
+        border-radius: nullpx;
+        font-family: Roboto;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: red;
+        position: absolute;
+        font-style: normal;
+        font-weight: 700 bold;
+    }
+@media screen and (max-width: 768px) and (min-width: 320px) {
+ body{
+        background: #1b2473;
+    }
+    
+    .registration{
+        position: absolute;
+        width: 90%;
+        height: 90%;
+        left: 7%;
+        right: 5%;
+        top: 5%;
+        background: #FFFFFF;
+        box-shadow: 0% 0% 16% 6%px rgba(0, 0, 0, 0.25);
+        border-radius: 3%;
+        color: #787878;
+    }
+
+    .registration__headliner{
+        position: absolute;
+        width: 20%;
+        height: 30%;
+        left: 37%;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 400%;
+        line-height: 70%;
+        color: #787878;
+    }
+
+
+    .registration__email{
+        position: absolute;
+        width: 90%;
+        height: 10%;
+        left: 10%;
+        top: 20%;
+        
+    }
+
+    .registration__email-lable{
+        position: absolute;
+        width: 10%;
+        height: 7%;
+        left: 1%;
+        top: -20%;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 120%;
+        line-height: 3%;
+
+    }
+    .registration__email-input{
+        position: absolute;
+        width: 90%;
+        height: 60%;
+        left: 0%;
+        top: 0%;
+        background: #FFFFFF;
+        border: 5% solid #787878;
+        box-sizing: border-box;
+        border-radius: 4%;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 180%;
+        line-height: 100%;
+    }
+
+    .registration__password{
+        position: absolute;
+        width: 90%;
+        height: 10%;
+        left: 10%;
+        top: 32%;
+    }
+    .registration__password-lable{
+        position: absolute;
+        width: 10%;
+        height: 7%;
+        left: 1%;
+        top: -20%;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 120%;
+        line-height: 3%;
+        color: #787878;
+
+    }
+
+    .registration__password-input{
+        position: absolute;
+        width: 90%;
+        height: 60%;
+        left: 0%;
+        top: 0%;
+        background: #FFFFFF;
+        border: 5% solid #787878;
+        box-sizing: border-box;
+        border-radius: 4%;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 180%;
+        line-height: 100%;
+    }
+    .registration__email-input::placeholder {
+        padding-left: 3%;
+        color: #ccc;
+    }
+    
+    .registration__password-input::placeholder {
+        padding-left: 3%;
+        color: #ccc;
+    }
+    
+    .registration__checkbox{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 10%;
+        top: 40%;
+    }
+
+    .registration__checkbox_input{
+        position: absolute;
+        width: 5%;
+        height: 5%;
+        left: 0%;
+        top: 0%;
+        background: #FFFFFF;
+        border: 2px solid #787878;
+        box-sizing: border-box;
+        border-radius: 3%;
+    }
+
+    .registration__checkbox_label{
+        position: absolute;
+        width: 70%;
+        height: 100%;
+        left: 8%;
+        top: 1.5%;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 95%;
+        line-height: 100%;
+        color: #787878;
+    }
+
+    .registration__button{
+        position: absolute;
+        width: 30%;
+        height: 10%;
+        left: 37%;
+        top: 55%;
+        background: #1A226B;
+        border-radius: 6%;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 150%;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+
+}
+
+
+
+

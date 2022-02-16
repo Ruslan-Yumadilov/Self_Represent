@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="registration">
+            <h1 class="registration__headliner">Регистрация</h1>
+            <div class="registration__email">
+                <label for="email" class="registration__email-lable">Email</label><br>
+                <input type="email" id="email" required class="registration__email-input" inputmode="email" placeholder="Введите Email"> 
+            </div> 
+            <div class="registration__email-asterix">
+                <p>*</p>
+            </div>
+            <div class="registration__email_hiden_alarm"></div>
+            <div class="registration__password">
+                <label for="password" class="registration__password-lable">Пароль</label><br>
+                <input type="password" id="password" required class="registration__password-input" placeholder="Введите пароль"> 
+            </div> 
+            <div class="registration__password-asterix">
+            <p>*</p>
+            </div>
+            <div class="registration__checkbox">
+                <input type="checkbox" id="checkbox" class="registration__checkbox_input">
+                <label for="checkbox" class="registration__checkbox_label">Я согласен c <a href="" class="registration__checkbox_label-link">Правилами пользования приложением</a></label>
+            </div>
+            <button class="registration__button">Регистрация</button>
+            <div class="registration__checkbox-asterix">
+               
+                <p>*</p>
+            </div>
+            
+    </div>  
+    <script src="script.js"></script>  
+</body>
+
+</html>
