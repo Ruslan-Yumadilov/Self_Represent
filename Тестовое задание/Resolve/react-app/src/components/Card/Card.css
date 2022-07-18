@@ -1,0 +1,173 @@
+.card__borderBlue{
+    position: relative;
+    margin-top: 180px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background:linear-gradient(135deg, transparent 44px, rgb(22, 152, 217) 0);
+    width: 328px;
+    height: 488px;
+}
+
+.card__borderMagenta {
+    background:linear-gradient(135deg, transparent 44px, rgb(217, 2, 103) 0);
+    position: relative;
+    margin-top: 180px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 328px;
+    height: 488px;
+}
+
+.card {
+    position: absolute;
+    width: 320px;
+    height: 480px;
+    margin-top: 4px;
+    margin-left: 4px;
+    background:linear-gradient(135deg, transparent 42px, rgb(242, 242, 242) 0);
+}
+
+
+.card__image {
+    height: 100%;
+    min-width: 100%;
+    position: absolute;
+    margin-top: 217px;
+    color: #666666;
+}
+
+.card__pretitle{
+    position: absolute;
+    height: 19px;
+    left: 15.94%;
+    right: 20%;
+    top: calc(50% - 19px/2 - 224px);
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+}
+
+.card__title {
+    position: absolute;
+    height: 56px;
+    left: 15%;
+    right: 19.06%;
+    top: calc(50% - 56px/2 - 181.5px);
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.card__exrtaCondition {
+    position: absolute;
+    width: 35%;
+    height: 32px;
+    left: 15.94%;
+    right: 50.94%;
+    margin-top: 170px;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.card__extract{
+    position: absolute;
+    height: 28px;
+    left: 15.94%;
+    right: 49.06%;
+    margin-top: 130px;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.card__weight{
+    margin-top: 18px;
+    height: 22px;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 22px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.card__weightCircle{
+    position: absolute;
+    left: 70%;
+    right: 5%;
+    bottom: 3%;
+    background: #1698D9;
+    border-radius: 50%;
+}
+
+.card__weightKg{
+    margin-top: -28px;
+    margin-left: 30px;
+    position: absolute;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.card__selected{
+    position: absolute;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: -260px;
+    text-align: center;
+}
+
+
+.card__notSelected{
+    position: absolute;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: -260px;
+    text-align: center;
+}
+
+.card__notSelectedBlue{
+    width: 30px;
+    color: #2EA8E6;
+    background: none;
+    border: none;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    border-bottom: 2px dashed #2EA8E6;
+    text-align: center;
+    padding-left: 0px;
+}
